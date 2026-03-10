@@ -14,7 +14,6 @@ export default defineConfig([
     format: ['esm'],
     target: 'node18',
     sourcemap: true,
-    banner: { js: '#!/usr/bin/env node' },
   },
   {
     entry: { index: 'src/index.ts' },
