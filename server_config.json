@@ -1,0 +1,1 @@
+{"serverConfig": "{\"mcpServers\":{\"prodlint\":{\"command\":\"npx\",\"args\":[\"-y\",\"@iflow-mcp/prodlint-prodlint\"],\"values\":{}}}}"}

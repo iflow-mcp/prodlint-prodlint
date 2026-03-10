@@ -11,9 +11,10 @@ export default defineConfig([
   },
   {
     entry: { mcp: 'src/mcp.ts' },
-    format: ['esm'],
+    format: ['cjs'],
     target: 'node18',
     sourcemap: true,
+    banner: { js: '#!/usr/bin/env node' },
   },
   {
     entry: { index: 'src/index.ts' },
